@@ -4,5 +4,3 @@ static
 .module-cache
 *.log*
 _nogit
-mis-js.sublime-project
-mis-js.sublime-workspace
