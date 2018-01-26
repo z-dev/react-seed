@@ -1,11 +1,11 @@
-import Landing from './components/landing'
-import ReactTasks from './components/reactTasks'
-import ImportExportTasks from './components/importExportTasks'
-import TodoList from './containers/todoList'
+import Home from './containers/home'
+import Journeys from './containers/journeys'
+import Login from './containers/login'
+import Accounts from './containers/accounts'
 
 export const routes = [
-  { path: '/', component: Landing, exact: true },
-  { path: '/reactTasks', component: ReactTasks, exact: false },
-  { path: '/importExportTasks', component: ImportExportTasks, exact: false },
-  { path: '/todoList', component: TodoList, exact: false },
+  { path: '/', component: Home, exact: true },
+  { path: '/login', component: Login, exact: false },
+  { path: '/journeys', component: Journeys, exact: false },
+  { path: '/accounts', component: Accounts, exact: false },
 ]
